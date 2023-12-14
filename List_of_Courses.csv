@@ -1,0 +1,181 @@
+Department,Course Code,Year,Faculty Name,Aaccronym,Registration,Room No,Instructor,Final Slot,Slot,Previous slot no,Starting Timings,Ending Timings,Day,Gmail ID
+SSH,SOC312/ 501,Rest,Advanced  Ethnographic and Qualitative Research Methods,AERM,32,C215,Dr. Soibam Haripriya,1,1,,,,,rohit21279@iiitd.ac.in
+CSE,CSE643,Rest,Artificial Intelligence,AI,215,C102,Saket Anand,1,8,,,,,rohit21279@iiitd.ac.in
+CB,BIO549,Rest,Computational Metagenomics ,CoMeG,40,C03,Tarini Ghosh,1,1,,,,,rohit21279@iiitd.ac.in
+HCD,DES514,Rest,Digital Audio & Video Production Workflow,DAVP,49,102 (R&D),Aman Samuel (V),1,1,4,,,,rohit21279@iiitd.ac.in
+ECE,ECE570,Rest,Linear Systems Theory,LST,13,C13,Sanat Biswas,1,1,,,,,rohit21279@iiitd.ac.in
+ECE,ECE525,Rest,Quantum Mechanics,QM,23,C22,Sayak Bhattacharya,1,1,,,,,rohit21279@iiitd.ac.in
+MATHS,MTH506,Rest,Topics in Mathematical Logic ,TML,2,C208,Sankha Basu,1,1,,,,,rohit21279@iiitd.ac.in
+CSE,CSE538/ECE538,Rest,Wireless Network,WN,73,C21,Mukulika Maity,1,1,,,,,rohit21279@iiitd.ac.in
+ECE,ECE677/CSE677,Rest,Advances in Deep Learning,ADL,16,C03,A.V.Subramanyam,2,2,,,,,rohit21279@iiitd.ac.in
+CB,BIO361,Rest,Biophysics,BioP,77,C11,Arjun Ray,2,2,,,,,rohit21279@iiitd.ac.in
+CB,BIO211,II Year,Cell Biology and Biochemistry,CBB,21,C12,Jaspreet Kaur,2,2,,,,,rohit21279@iiitd.ac.in
+CSE,CSE506,Rest,Data Mining,DMG,40,C215,Vikram Goyal,2,2,,,,,rohit21279@iiitd.ac.in
+HCD,DES201,II Year,Design Processes and Perspectives ,DPP,60,A106,Anmol Srivastava,2,2,,,,,rohit21279@iiitd.ac.in
+ECE,ECE270,II Year,Embedded Logic Design,ELD,119,B105,Sumit Darak,2,2,,,,,sumit@iiitd.ac.in
+SSH,SOC513,Rest,Enhancement Technologies and the Body,ETB,28,C22,Paro Mishra,2,2,,,,,rohit21279@iiitd.ac.in
+MATHS,MTH561,Rest,Introduction to Algebraic Geometry with Applications,IAGA,3,C208,Nabanita Ray,2,2,,,,,rohit21279@iiitd.ac.in
+SSH,ECO301,Rest,Microeconomics,ME,90,A007,Souvik Dutta,2,2,,,,,rohit21279@iiitd.ac.in
+MATHS,MTH211,II Year,Number Theory,NT,38,C02,Anuradha Sharma,2,2,,,,,rohit21279@iiitd.ac.in
+ECE,ECE524,Rest,Quantum Materials and Devices,QMD,21,C216,Ram Krishna Ghosh,2,2,2,,,,rohit21279@iiitd.ac.in
+HCD,DES530,Rest,The Business of Artificial Intelligence ,BAI,111,A106,Vinish Kathuria,3,3,,,,,rohit21279@iiitd.ac.in
+CB,BIO524,Rest,Biomedical Image Processing,BIP,15,B001,Vibhor Kumar,3,3,,,,,rohit21279@iiitd.ac.in
+CSE,CSE333/CSE533,Rest,Computer Graphics,CG,43,B105,Ojaswa Sharma,3,3,8,,,,rohit21279@iiitd.ac.in
+SSH,SSH225A,II Year,Comprehensive Gender Sensitization,CGS,48,C21,Smriti Singh,Nil,Nil,,13.3,15,Tuesday,rohit21279@iiitd.ac.in
+CB,BIO546/CSE585,Rest,Computing for Medicine,CM,137,C01,Tavpritesh Sethi,3,3,,,,,rohit21279@iiitd.ac.in
+SSH,PSY308/PSY508,Rest,Cognition of Motor Movement ,CMM,134,C11,Sonia Baloni Ray,3,3,,,,,rohit21279@iiitd.ac.in
+CSE,CSE665A,Rest,Distributed and Federated Machine Learning,DFML,20,C211,"Bapi Chatterjee, Ranjitha Prasad",3,3,,,,,rohit21279@iiitd.ac.in
+MATHS,MTH376,Rest,Mechanics of Bodies,MB,0,,Sarthok Sircar,3,3,,,,,rohit21279@iiitd.ac.in
+ECE,ECE501,Rest,Probability and Random Processes,PRP,26,C213,Chanekar Prasad Vilas,3,3,,,,,rohit21279@iiitd.ac.in
+ECE,ECE318/ECE518,Rest,Solid State Devices,SSD,79,A006,Sneh Saurabh,3,3,,,,,rohit21279@iiitd.ac.in
+CSE,CSE516/ECE559,Rest,Theories of Deep Learning,TDL,7,C03,Vinayak Abrol,3,3,,,,,rohit21279@iiitd.ac.in
+SSH,SOC314/SOC512,Rest,Technology and the Future of Work,TFW,57,C21,Gayatri Nair,3,3,,,,,rohit21279@iiitd.ac.in
+ECE,ECE551/CSE515,Rest,Bayesian Machine Learning,BML,34,C03,Ranjitha P,4,4,,,,,rohit21279@iiitd.ac.in
+SSH,SSH3xx/5xx,Rest,Concepts and Methods in Social Movement Research ,CMSMR,11,C209,Aasim Khan,4,4,,,,,rohit21279@iiitd.ac.in
+CSE,CSE232,Rest,Computer Networks (Sec A),CN (Sec A),150,A006,Rinku Shah,4,4,,,,,rohit21279@iiitd.ac.in
+CSE,CSE232,Rest,Computer Networks (Sec B),CN (Sec B),157,C21,Pushpendra Singh,4,4,,,,,rohit21279@iiitd.ac.in
+ECE,ECE215,II Year,Circuit Theory and Devices,CTD,119,B105,Shobha Sunder Ram,4,4,,,,,rohit21279@iiitd.ac.in
+CSE,CSE121,II Year,Discrete Mathematics,DM,222,C102,Bapi Chatterjee,4,4,,,,,rohit21279@iiitd.ac.in
+MATHS,MTH210,II Year,Discrete Structures,DS,167,C11,Rajiv Raman,4,4,,,,,rohit21279@iiitd.ac.in
+CB,BIO214,II Year,Genetics and Molecular Biology,GMB,56,C12,Gaurav Ahuja,4,4,,,,,rohit21279@iiitd.ac.in
+HCD,DES522,Rest,"Inclusive Design, Universal Design & Accessibility",IDUDA,19,C208,Richa Gupta,4,4,1,,,,rohit21279@iiitd.ac.in
+CB,BIO542,Rest,Machine Learning for Biomedical Applications,MLBA,222,C01,G P S Raghava,4,4,,,,,rohit21279@iiitd.ac.in
+SSH,PSY307/PSY507,Rest,Neuroscience of Decision Making ,NDM,135,A007,Mrinmoy Chakrabarty ,4,4,,,,,rohit21279@iiitd.ac.in
+MATHS,MTH340/MTH540,Rest,Real Analysis II,RA-II,14,C215,,4,4,,,,,rohit21279@iiitd.ac.in
+ECE,ECE539,Rest,Wireless System Implementation,WSI,10,C13,Vivek Bohara,4,4,,,,,rohit21279@iiitd.ac.in
+CB,BIO544,Rest,Computational Gastronomy,CGAS,39,B105,Ganesh Bagler,5,5,,,,,rohit21279@iiitd.ac.in
+ECE,ECE315/ECE515,Rest,Analog CMOS Design,CMOS,74,C11,Dr. Debidas Kundu,5,5,,,,,rohit21279@iiitd.ac.in
+SSH,ECO331,Rest,Foundations of Finance,FF,128,A006,Pankaj Vajpayee,5,5,,,,,rohit21279@iiitd.ac.in
+SSH,SOC308/SOC514,Rest,Gender and Media,G&M,90,C21,Smriti Singh,5,5,,,,,rohit21279@iiitd.ac.in
+CSE,CSE656,Rest,Information Integration and Applications,IIA,206,C01,Mukesh Mohania,5,5,,,,,rohit21279@iiitd.ac.in
+CSE,CSE319/CSE519,Rest,Modern Algorithm Design,MAD,12,C214,Diptapriyo Majumdar,5,4,,,,,rohit21279@iiitd.ac.in
+MATHS,MTH203,II Year,Math III (Sec A),M-III,258,C102,Satish Pandey,5,5,,,,,rohit21279@iiitd.ac.in
+MATHS,MTH203,II Year,Math III (Sec B),M-III,260,C102,Subhajit Ghosechowdhury (L),5,5,,,,,rohit21279@iiitd.ac.in
+ECE,,Rest,Principles of Digital Communication System,PDCS,17,C12,Anand Srivastava,5,5,,,,,rohit21279@iiitd.ac.in
+MATHS,MTH240,II Year,Real Analysis I,RA-I,77,C01,Samaresh Chatterji (V),1,5,,,,,rohit21279@iiitd.ac.in
+MATHS,MTH373/MTH573,Rest,Scientific Computing,SC,67,A007,Kaushik Kalyanaraman,5,5,,,,,rohit21279@iiitd.ac.in
+CSE,CSE583,Rest,Software Development using Open Source,SDOS,90,A106,Pankaj Jalote,5,5,,,,,rohit21279@iiitd.ac.in
+HCD,DES513,Rest,"Wearable Applications, Research, Devices, Interactions",WARDI,2,C208,Kalpana Shankhwar,5,5,,,,,rohit21279@iiitd.ac.in
+HCD,DES305,Rest,3D Animation Film Making ,3DAF,18,C24,Anoop Ratn (V),6,6,,,,,rohit21279@iiitd.ac.in
+CSE,CSE201,II Year,Advanced Programming- Sec A,AP,301,C101,V. Raghava Mutharaju ,6,6,,,,,rohit21279@iiitd.ac.in
+CSE,CSE201,II Year,Advanced Programming - Sec B,AP,307,C201,Koteswar Rao Jerripothula,6,6,,,,,rohit21279@iiitd.ac.in
+CB,BIO511,Rest,Cell Biology and Biochemistry (PG),CBB,21,C12,Sriram K.,6,6,,,,,rohit21279@iiitd.ac.in
+SSH,ECO323/ECO523,Rest,Causal Inference,CI,8,C214,JV Meenakshi,6,6,,,,,rohit21279@iiitd.ac.in
+CSE,CSE340/CSE540/ ECE350,Rest,Digital Image Processing,DIP,148,C01,Angshul Majumdar,6,6,,,,,rohit21279@iiitd.ac.in
+ECE,ECE314/ECE514,Rest,Digital VLSI Design,DVD,94,C21,Anuj Grover,6,6,,,,,rohit21279@iiitd.ac.in
+CSE,CSE525,Rest,Introduction to Graduate Algorithms,GA,140,C11,Debajyoti Bera,6,6,,,,,rohit21279@iiitd.ac.in
+CSE,CSE553,Rest,Networks and Systems Security I,NSS I,46,C212,Sambuddho Chakravarty,6,6,,,,,rohit21279@iiitd.ac.in
+SSH,ENT415,Rest,New Venture Planning,NVP,127,B105,Guest Faculty/ Rajbir Singh,6,6,,,,,rohit21279@iiitd.ac.in
+MATHS,MTH562,Rest,Point Set Topology,PST,5,C211,Prahllad Deb,6,6,,,,,rohit21279@iiitd.ac.in
+ECE,ECE564/CSE564,Rest,Reinforcement Learning,RL,52,C02,Sanjit Kaul,6,6,,,,,rohit21279@iiitd.ac.in
+CSE,CSE586,Rest,Algorithms under Uncertainty,AUU,21,C213,Syamantak Das,7,7,,,,,rohit21279@iiitd.ac.in
+SSH,ECO314,Rest,Behavioural Economics,Beco,25,C211,Kirti Kanjilal,7,7,,,,,rohit21279@iiitd.ac.in
+MATHS,MTH341/MTH541,Rest,Complex Analysis,CmpA,18,C13,Ashish Kumar Pandey,7,7,,,,,rohit21279@iiitd.ac.in
+CSE,CSE504,Rest,Decision Procedures,DP,6,C212,Piyus Kedia,7,7,,,,,rohit21279@iiitd.ac.in
+ECE,ECE351,Rest,Digital Signal Processing,DSP,69,A006,Manuj Mukherjee,7,7,,,,,rohit21279@iiitd.ac.in
+HCD,DES524,Rest,Ergonomics/Human factors for Design,EFD,43,C209,Sonal Keshwani (V),2,7,,,,,rohit21279@iiitd.ac.in
+CSE,CSE345/CSE545,Rest,Foundations of Computer Security,FCS,93,A007,Arun Balaji Bundru,7,7,9,,,,rohit21279@iiitd.ac.in
+CB,BIO512,Rest,Foundations of Modern Biology,FOMB,32,C210,Vibhor Kumar,7,7,,,,,rohit21279@iiitd.ac.in
+SSH,ENT202,Rest,"Social Entrepreneurship	",SoE,42,C21,Jyoti Sharma,7,7,8,,,,rohit21279@iiitd.ac.in
+SSH,ENT202,II Year,"Social Entrepreneurship	",SoE,42,C21,Jyoti Sharma (G),7,7,8,,,,rohit21279@iiitd.ac.in
+SSH,SOC211,Rest,"Science, Technology and Society",STS,96,C11,Dr. Deepak Prince,7,7,,,,,rohit21279@iiitd.ac.in
+SSH,SOC211,II Year,"Science, Technology and Society",STS,96,C11,Deepak Prince,7,7,,,,,rohit21279@iiitd.ac.in
+ECE,CSE633/ECE670,Rest,Robotics,IRob,52,C210,Sayan Basu Roy,8,8,,,,,rohit21279@iiitd.ac.in
+HCD,DES526/307,Rest,Motion  Design and Graphics ,MDG,26,C214,Anoop Ratn (V),8,8,,,,,rohit21279@iiitd.ac.in
+CSE,CSE343/CSE543/ECE363/ECE563,Rest,Machine Learning (Sec A),ML (A),200,C01,Jainendra Shukla,8,1,,,,,rohit21279@iiitd.ac.in
+CSE,CSE343/CSE543/ECE363          /ECE563.,Rest,Machine Learning (SecB),ML (B),177,C11,Vinayak Abrol,8,1,,,,,rohit21279@iiitd.ac.in
+CB,BIO532,Rest,Network Biology,NB,22,C208,Ganesh Bagler,8,8,,,,,rohit21279@iiitd.ac.in
+MATHS,MTH359/MTH559 ,Rest,Nonlinear dynamics with MATLAB applications,NDMA,2,C03,Sarthok Sircar,8,1,,,,,rohit21279@iiitd.ac.in
+ECE,ECE530,Rest,Quantum Communication and Networks,QCN,7,C02,Abhijit Mitra,8,8,,,,,rohit21279@iiitd.ac.in
+SSH,SSH526/726,Rest,Reading Hegel's Phenomenology of Spiri ,RHPS,3,C211,Nishad Patnaik,8,8,,,,,rohit21279@iiitd.ac.in
+SSH,SSH221,II Year,Social and Political Philosophy,SPP,167,C01,Manohar Kumar,7,8,,,,,rohit21279@iiitd.ac.in
+CB,BIO321,Rest,Algorithms in Bioinformatics,ABIN,84,A006,Debarka Sengupta,9,9,,,,,rohit21279@iiitd.ac.in
+CSE,ECE511/CSE511,Rest,Computer Architecture,CA,223,C102,Sujay Deb,9,9,,,,,rohit21279@iiitd.ac.in
+CB,BIO523,Rest,Chemoinformatics,Chi,45,C12,Arul Murugan,9,9,,,,,rohit21279@iiitd.ac.in
+ECE,,Rest,Digital Processor Design ,DPD,5,C210,Amlan Chakrabarty (V),9,9,,,,,rohit21279@iiitd.ac.in
+CSE,CSE558,Rest,Data Science,DSc,142,C01,Supratim Shit,9,5,,,,,rohit21279@iiitd.ac.in
+HCD,DES507,Rest,Fundamentals of Audio for Engineers,FAE,33,C212,Angshul Das,9,9,,,,,rohit21279@iiitd.ac.in
+SSH,ECO311/ECO511,Rest,Game Theory,GMT,115,C21,Ruhi Sonal ,9,9,,,,,rohit21279@iiitd.ac.in
+SSH,SSH201,II Year,Research Methods in Social Sciences and Design,RMSSD,128,B105,Ratan Suri,9,9,,,,,rohit21279@iiitd.ac.in
+ECE,ECE250,II Year,Signals & Systems,S&S,228,#N/A,Anubha Gupta ,9,9,,,,,rohit21279@iiitd.ac.in
+MATHS,MTH371,Rest,Stochastic Processes and Applications,SPA,78,A007,Monika Arora,9,9,,,,,rohit21279@iiitd.ac.in
+HCD,DES527,Rest,User Experience Design of XR ,UDXR,18,C213,Anmol Srivastava ,9,9,7,,,,rohit21279@iiitd.ac.in
+SSH,SSH362/SSH562,Rest,Urban Space and Political Power,USPP,80,A106,Praveen Priyadarshi,9,9,,,,,rohit21279@iiitd.ac.in
+SSH,ESC205A,Rest,Environmental Sciences,EVS,448,C102,D. K Sharma,Nil,Nil,,13.3,15,Thursday,rohit21279@iiitd.ac.in
+CSE,CSE600A/         ECE600A,Rest,Object Oriented Programming and Design,OOPD,218,C101,Arani Bhattacharya,10,10,,,,,rohit21279@iiitd.ac.in
+SSH,COM301A,Rest,Technical Communication,Tcom,532,C102,Payel C Mukherjee,Nil,Nil,,13.3,15,Monday,rohit21279@iiitd.ac.in
+CSE,CSE231,II Year,Operating Systems - Sec B,OS,251,C201,Dhruv Kumar,11,11,,,,,rohit21279@iiitd.ac.in
+CSE,CSE231,II Year,Operating Systems - Sec A,OS,312,C102,Vivek Kumar,11,11,,,,,rohit21279@iiitd.ac.in
+SSH,SSH225A,Rest,Comprehensive Gender Sensitization,CGS,48,C21,Smriti Singh,Nil,3,,13.3,15,Tuesday,rohit21279@iiitd.ac.in
+CB,,,Programming for Computational Biology,PCB,,C21,,Nil,Nil,,13.3,15,Monday,rohit21279@iiitd.ac.in
+,,,,,,,,,,,,,,
+CSE,CSE546,Rest,Applied Cryptography,AC,,,Subhabrata Samajder,,2,,,,,rohit21279@iiitd.ac.in
+MATHS,MTH518,Rest,Topics in Number Theory,TNT,,,Debika Banerjee,,8,2,,,,rohit21279@iiitd.ac.in
+SSH,ENT201,Rest,Foundations of Entreprenurship,FOE,#N/A,,Anupam Saronwala,5,5,7,,,,rohit21279@iiitd.ac.in
+MATHS,MTH545,Rest,Finite and Spectral Elements,FSEM,#N/A,,Subhashree Mohapatra,8,8,,,,,rohit21279@iiitd.ac.in
+CSE,CSE232,Rest,CN-Tut,CN,,"C01, C11",,Nil,Nil,,12.3,13.3,Wednesday,rohit21279@iiitd.ac.in
+MATHS,MTH371,Rest,SPA-Tut,SPA,,"B001, B002, A106, B105",,Nil,Nil,,12.3,13.3,Thursday,rohit21279@iiitd.ac.in
+CSE,CSE333/CSE533,Rest,CG-Lab,CG,,A007,,Nil,Nil,,12.3,14,Friday,rohit21279@iiitd.ac.in
+CSE,CSE343/CSE543/ECE363/ECE563,Rest,ML-Tut(Sec-A),ML,,"C208,C209,C214,C215,C216 ",,Nil,Nil,,14.00.00,15,Friday,rohit21279@iiitd.ac.in
+CSE,CSE343/CSE543/ECE363/ECE563,Rest,ML-tut(Sec-B),ML,,C01,,Nil,Nil,,14,15,Friday,rohit21279@iiitd.ac.in
+MATHS,MTH210,II Year,"Tut DS  All Groups  -B001, B002, A106, B105",DS,,"B001, B002, A106, B105",Rajiv Raman,NIl,Nil,,13,15,Monday,rohit21279@iiitd.ac.in
+ECE,ECE215,II Year,Tut CTD ,CTD,," (A006,A007)",,Nil,Nil,,13,15,Monday,rohit21279@iiitd.ac.in
+CSE,CSE121,II Year,Tut DM (All Groups) C11,DM,,C11,,Nil,Nil,,12.3,13.3,Monday,rohit21279@iiitd.ac.in
+ECE,ECE270,II Year,Lab ELD ,ELD,,A006,,Nil,Nil,,8.3,11,Tuesday,rohit21279@iiitd.ac.in
+MATHS,MTH211,II Year,Tut NT,NT,," C03,C13",,Nil,Nil,,11,12.3,Tuesday,rohit21279@iiitd.ac.in
+CSE,CSE231,II Year,Tut OS  (All Groups)  - C101- Sec A,OS,, C101,,Nil,Nil,,8.3,9.3,Wednesday,rohit21279@iiitd.ac.in
+CSE,CSE231,II Year,Tut OS  (All Groups)  -  C201-Sec B,OS,,C201,,Nil,Nil,,8.3,9.3,Wednesday,rohit21279@iiitd.ac.in
+ECE,ECE250,II Year,Tut S&S  ,S&S ,," (B001,B002,A106,B105, A007,A006,C01,C11,C21)",,Nil,Nil,,8.3,9.3,Friday,rohit21279@iiitd.ac.in
+CSE,CSE201,II Year,Tut AP (All Groups) ,AP,,"(C03,C13,C22,C208,C209,C214,C215,C216, L1,L2,L3,C210,C211,C212,C213,C02)",,Nil,Nil,,14,15,Wednesday,rohit21279@iiitd.ac.in
+CSB,BIO214,II Year,Lab GMB,GMB,,,,Nil,Nil,,9,11,Thursday,rohit21279@iiitd.ac.in
+CSB,BIO211 ,II Year,Lab CBB ,CBB,,,,Nil,Nil,,9,11,Thursday,rohit21279@iiitd.ac.in
+SSH,SSH201,II Year,Lab RMSSD  ,RMSSD,,B105,,Nil,Nil,,9.3,11,Thursday,rohit21279@iiitd.ac.in
+MATHS,MTH203,II Year,Tut M-III  (All Groups) ,M-III,,"(B001,B002,A106,B105,A006,A007,C01,C11)",,Nil,Nil,,13.3,15,Thursday,rohit21279@iiitd.ac.in
+MATHS,MTH240,II Year,Tut RA-I  ,RA-I,,"(C21,C101,C201)  
+  
+  ",,Nil,Nil,,13.3,15,Thursday,rohit21279@iiitd.ac.in
+HCD,DES201,II Year,DPP Practice,DPP,, A106,,Nil,Nil,,14,16.3,Friday,rohit21279@iiitd.ac.in
+ECE,ECE215,II Year,Lab CTD ,CTD,,,,Nil,Nil,,14,16.3,Friday,rohit21279@iiitd.ac.in
+CSE,CSE101,I Year,Introduction To Programming(Sec-A),IP,,C101,,Nil,Nil,,9.3,11,Monday,rohit21279@iiitd.ac.in
+CSE,CSE101,I Year,"Tut IP [GP 1,2,3,4,5,6,7,8,9](Sec-A)",IP,,"(C03,C13,C22,C24, C214,C208,C209,C215,C216)",,Nil,Nil,,8.3,9.3,Monday,rohit21279@iiitd.ac.in
+CSE,CSE101,I Year,"Tut IP [GP 10,11,12,13,14,15,16,17,18](Sec-A)",IP,,"(C03,C13,C22,C24, C214,C208,C209,C215,C216)",,Nil,Nil,,8.3,9.3,Tuesday,rohit21279@iiitd.ac.in
+CSE,CSE101,I Year,"Lab IP [GP 1,2,3,4,5,6,7,8,9](Sec-A)",IP,,,,Nil,Nil,,13,15,Monday,rohit21279@iiitd.ac.in
+CSE,CSE101,I Year,"Lab IP [GP  10, 11, 12, 13,14,15, 16,17,18](Sec-A)",IP,, ,,Nil,Nil,,13,15,Tuesday,rohit21279@iiitd.ac.in
+MATHS,MTH100,I Year,Maths I(Sec-A),MI,,C101,,Nil,Nil,,11,12,Monday,rohit21279@iiitd.ac.in
+MATHS,MTH100,I Year,"Tut-M-I [GP 10,11,12,13,14,15,16,17,18](Sec-A)",MI,,"
+(C03,C13,C22,C24, C214,C208,C209,C215,C216)",,Nil,Nil,,13,14.3,Monday,rohit21279@iiitd.ac.in
+MATHS,MTH100,I Year,"Tut M1 [GP 1,2,3,4,5,6,7,8,9](Sec-A)",MI,,"(C03,C13,C22,C24, C214,C208,C209,C215,C216)",,Nil,Nil,,13,14.3,Tuesday,rohit21279@iiitd.ac.in
+HCD,DES102,I Year,Introduction to HCI(Sec-A),IHCI,,C101,,Nil,Nil,,9.3,11.00.00,Tuesday,rohit21279@iiitd.ac.in
+HCD,DES102,I Year,"Tut HCI - Gp1,2,3,4,5,6,7,8,9(Sec-A)",IHCI,,"(C03,C13,C22,C24, C214,C208,C209,C215,C216)",,Nil,Nil,,13,14,Thursday,rohit21279@iiitd.ac.in
+HCD,DES102,I Year,"Tut HCI  [GP 10,11,12,13,14,15,16,17,18](Sec-A)",IHCI,,"(C03,C13,C22,C24, C214,C208,C209,C215,C216)",,Nil,Nil,,8.3,9.3,Friday,rohit21279@iiitd.ac.in
+ECE,ECE111,I Year,Digital Circuits(Sec-A),DC,,C101,,Nil,Nil,,11,12,Tuesday,rohit21279@iiitd.ac.in
+ECE,ECE111,I Year,"Tut DC -  GP  1,2,3,4,5,6,7,8,9(Sec-A)",DC,,"(C03,C13,C22,C24, C214,C208,C209,C215,C216)",,Nil,Nil,,8.3,9.3,Wednesday,rohit21279@iiitd.ac.in
+ECE,ECE111,I Year,"Tut DC  GP 10,11,12,13,14,15,16,17,18(Sec-A)",DC,,"(C03,C13,C22,C24, C214,C208,C209,C215,C216)",,Nil,Nil,,8.3,9.3,Thursday,rohit21279@iiitd.ac.in
+COM,COM101,I Year,Communication Skills(Sec-A),COM,,C101,,Nil,Nil,,15,18,Thursday,rohit21279@iiitd.ac.in
+CSE,CSE101,I Year,Introduction To Programming(Sec-B),IP,,C101,,Nil,Nil,,9.3,11,Monday,rohit21279@iiitd.ac.in
+CSE,CSE101,I Year,"Tut IP [GP 1,2,3,4,5,6,7,8,9](Sec-B)",IP,,"(L1,L2,L3,C02,C12,C210,C211,C212,C213)",,Nil,Nil,,8.3,9.3,Wednesday,rohit21279@iiitd.ac.in
+CSE,CSE101,I Year,"Tut IP [GP 10,11,12,13,14,15,16,17,18](Sec-B)",IP,,"(L1,L2,L3,C02,C12,C210,C211,C212,C213)",,Nil,Nil,,8.3,9.3,Thursday,rohit21279@iiitd.ac.in
+CSE,CSE101,I Year,"Lab IP [GP 1,2,3,4,5,6,7,8,9](Sec-B)",IP,,,,Nil,Nil,,13,15,Wednesday,rohit21279@iiitd.ac.in
+CSE,CSE101,I Year,"Lab IP [GP  10, 11, 12, 13,14,15, 16,17,18](Sec-B)",IP,, ,,Nil,Nil,,13,15,Thursday,rohit21279@iiitd.ac.in
+MATHS,MTH100,I Year,Maths I(Sec-B),MI,,C101,,Nil,Nil,,11,12,Monday,rohit21279@iiitd.ac.in
+MATHS,MTH100,I Year,"Tut-M-I [GP 10,11,12,13,14,15,16,17,18](Sec-B)",MI,,"(L1,L2,L3,C02,C12,C210,C211,C212,C213)",,Nil,Nil,,13,14.3,Tuesday,rohit21279@iiitd.ac.in
+MATHS,MTH100,I Year,"Tut M1 [GP 1,2,3,4,5,6,7,8,9](Sec-B)",MI,,"(L1,L2,L3,C02,C12,C210,C211,C212,C213)",,Nil,Nil,,13,14.3,Monday,rohit21279@iiitd.ac.in
+HCD,DES102,I Year,Introduction to HCI(Sec-B),IHCI,,C101,,Nil,Nil,,9.3,11.00.00,Tuesday,rohit21279@iiitd.ac.in
+HCD,DES102,I Year,"Tut HCI - Gp1,2,3,4,5,6,7,8,9(Sec-B)",IHCI,,"(L1,L2,L3,C02,C12,C210,C211,C212,C213)",,Nil,Nil,,13,14,Thursday,rohit21279@iiitd.ac.in
+HCD,DES102,I Year,"Tut HCI  [GP 10,11,12,13,14,15,16,17,18](Sec-B)",IHCI,,"(L1,L2,L3,C02,C12,C210,C211,C212,C213)",,Nil,Nil,,8.3,9.3,Friday,rohit21279@iiitd.ac.in
+ECE,ECE111,I Year,Digital Circuits(Sec-B),DC,,C101,,Nil,Nil,,11,12,Tuesday,rohit21279@iiitd.ac.in
+ECE,ECE111,I Year,"Tut DC -  GP  1,2,3,4,5,6,7,8,9(Sec-B)",DC,,"(L1,L2,L3,C210,C211,C212,C213,C02,C12)",,Nil,Nil,,8.3,9.3,Tuesday,rohit21279@iiitd.ac.in
+ECE,ECE111,I Year,"Tut DC-GP 10,11,12,13,14,15,16,17,18(Sec-B)",DC,,"(L1,L2,L3,C210,C211,C212,C213,C02,C12)",,Nil,Nil,,8.3,9.3,Monday,rohit21279@iiitd.ac.in
+COM,COM101,I Year,Communication Skills(Sec-B),COM,,C101,,Nil,Nil,,15,18,Wednesday,rohit21279@iiitd.ac.in
+CSE,CSE101,I Year,Introduction To Programming(Sec-A),IP,,C101,B N Jain (V),Nil,Nil,,9.3,11,Wednesday,rohit21279@iiitd.ac.in
+MATHS,MTH100,I Year,Maths I(Sec-A),MI,,C101,Samaresh Chatterjee (V),Nil,Nil,,11,12,Wednesday,rohit21279@iiitd.ac.in
+MATHS,MTH100,I Year,Maths I(Sec-A),MI,,C101,Samaresh Chatterjee (V),Nil,Nil,,9.3,10.3,Friday,rohit21279@iiitd.ac.in
+HCD,DES102,I Year,Introduction to HCI(Sec-A),IHCI,,C101,Rajiv Ratn Shah,Nil,Nil,,9.3,11,Thursday,rohit21279@iiitd.ac.in
+ECE,ECE111,I Year,Digital Circuits(Sec-A),DC,,C101,Pravesh Biyani,Nil,Nil,,11,12,Thursday,rohit21279@iiitd.ac.in
+ECE,ECE111,I Year,Digital Circuits(Sec-A),DC,,C101,Pravesh Biyani,Nil,Nil,,11,12,Friday,rohit21279@iiitd.ac.in
+CSE,CSE101,I Year,Introduction To Programming(Sec-B),IP,,C101,Md. Shad Akhtar,Nil,Nil,,9.3,11,Wednesday,rohit21279@iiitd.ac.in
+MATHS,MTH100,I Year,Maths I(Sec-B),MI,,C101,Subhajit Ghosechowdhury (L),Nil,Nil,,11,12,Wednesday,rohit21279@iiitd.ac.in
+MATHS,MTH100,I Year,Maths I(Sec-B),MI,,C101,Subhajit Ghosechowdhury (L),Nil,Nil,,9.3,10.3,Friday,rohit21279@iiitd.ac.in
+HCD,DES102,I Year,Introduction to HCI(Sec-B),IHCI,,C101,Sonal Keshwani (V),Nil,Nil,,9.3,11,Thursday,rohit21279@iiitd.ac.in
+ECE,ECE111,I Year,Digital Circuits(Sec-B),DC,,C101,Tammam Tillo,Nil,Nil,,11,12,Thursday,rohit21279@iiitd.ac.in
+ECE,ECE111,I Year,Digital Circuits(Sec-B),DC,,C101,Tammam Tillo,Nil,Nil,,11,12,Friday,rohit21279@iiitd.ac.in
