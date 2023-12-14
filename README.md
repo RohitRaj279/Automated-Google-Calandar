@@ -3,7 +3,7 @@ IIITD Google Calendar Automation
 This algorithm automates Google Calendar invitations for B.Tech and M.Tech students at IIIT Delhi. Invitations detail enrolled courses, including lectures, labs, tutorials, enhancing scheduling and reminders.
 
 Usage Instructions
-Access the Platform:
+Access the Platform:[Link Here](https://replit.com/join/nenkdzfask-rohit21279)
 
 Click here to access the platform.
 Upload CSV Files:
