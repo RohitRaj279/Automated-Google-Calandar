@@ -252,30 +252,44 @@ def read_calender():
     this_include_flag = 0
     # Iterate through each line in the CSV file
     for i in csvreader:
-      if (i[0].lower() == "tt: adjusted days"):
-        tt_add_flag = 1
-      if (i[0].lower() == "h:this includes saturdays/sundays and gh"):
-        this_include_flag = 1
+      for j in i:
+        if (j.strip().lower() == "tt: adjusted days"):
+          tt_add_flag = 1
+
+        if (j.strip().lower() == "h:this includes saturdays/sundays and gh"):
+          this_include_flag = 1
 
   with open(filename, 'r') as csvfile:
     line_number = 1
     reach = 0
     csvreader = csv.reader(csvfile)
+    find = 0
+    tt_not_take = 0
+
     # If both flags are found, extract relevant information
     if (tt_add_flag == 1 and this_include_flag == 1):
       for i in csvreader:
-        if (i[0].lower() == "tt: adjusted days" and reach == 0):
-          reach = 1
-          continue
-        elif (i[0].lower() == "h:this includes saturdays/sundays and gh"):
+
+        for j in i:
+          if (j.strip().lower() == "tt: adjusted days" and reach == 0):
+            reach = 1
+            continue
+          if (j.strip().lower() == "h:this includes saturdays/sundays and gh"):
+            find = 1
+            break
+        if (find == 1):
           break
         if (reach == 1):
+
           # Append relevant information to the 'all' list (assuming 'all' is defined globally)
           all.append(i)
+
     else:
+      print("\nERROR FROM USER INPUT")
       print(
-          "not written TT: Adjusted Days or H:This includes Saturdays/Sundays and GH in correct form"
+          "\nNot written TT: Adjusted Days or H:This includes Saturdays/Sundays and GH in correct form(spelling mistake)"
       )
+      print("\n")
       read_calender_error = 1
 
   return read_calender_error
@@ -301,14 +315,21 @@ def work_all_calender_data():
 
   """
   error_flag = 0
+  l = 0
   for i in all:
+    if (l == 0):
+      l = 1
+      continue
     if (i[0] != ""):
       a = i[0]
       if "-" not in a:
         error_flag = 1
         #print("came")
-        print("you have missed - in the input ", a)
-        print("please write it correct")
+        print(
+            "\nError in the academic calendar ->  in the substitue date format"
+        )
+        print("\nyou have missed - in the input -> ", a)
+        print("\nplease write it correct\n")
         continue
       s = a.split("-")
       day = s[0].split()
@@ -329,12 +350,16 @@ def work_all_calender_data():
       final_month = ""
       lower_month = day[1].strip()
       if lower_month.lower() not in check_month:
-        print(s)
+
         print(
-            "your have written wrong spelling of the month as per given the document in the substitute please check"
+            "\nError in the academic calendar ->  in the substitue date format"
         )
+        print(
+            "\nYour have written wrong spelling of the month as per given the document in the substitute please check in -> ",
+            a)
+        print("\nplease write it correct\n")
         error_flag = 1
-        continue
+        # continue
 
       if lower_month.lower() in month_captial_written.keys():
         final_month = month_captial_written[lower_month.lower()]
@@ -349,12 +374,15 @@ def work_all_calender_data():
 
       lower_day = on_which[0].strip()
       if lower_day.lower() not in check_days:
-        print(s)
         print(
-            "your have written wrong spelling of the day as per given the document in the substitute please check"
+            "\nError in the academic calendar ->  in the substitue date format"
         )
+        print(
+            "\nYour have written wrong spelling of the day as per given the document in the substitute please check in ->",
+            a)
+        print("\nplease write it correct\n")
         error_flag = 1
-        continue
+        # continue
 
       on_what = ""
 
@@ -380,11 +408,19 @@ def work_all_calender_data():
       if (i[start] == ""):
         start += 1
         continue
+      elif (i[start].strip().lower() ==
+            "*mid recess & summer vacation - for ug students only"):
+        start += 1
+        continue
       else:
         # print("Here-2")
         if "-" not in i[start] or "," not in i[start + 1]:
-          print("you have missed - or , in the input", i)
-          print("please correct it")
+          print(
+              "\nError in the academic calendar ->  in the holiday date format"
+          )
+          print("\nYou have missed - or , in the input ->",
+                i[start] + " " + i[start + 1])
+          print("\nplease correct it\n")
           error_flag = 1
           start += 2
           continue
@@ -393,13 +429,16 @@ def work_all_calender_data():
         y = i[start + 1].split(",")
         lower_month = x[1].strip()
         if lower_month.lower() not in check_month:
-          print(x, y)
           print(
-              "your have written wrong spelling of the month as per given the document in the substitute please check"
+              "\nError in the academic calendar ->  in the holiday date format"
           )
+          print(
+              "\nYour have written wrong spelling of the month as per given the document in the substitute please check ->",
+              i[start] + " " + i[start + 1])
+          print("\nplease correct it\n")
           error_flag = 1
           start += 2
-          continue
+          # continue
           # print(start)
           # print(x)
         temp1 = str(x[0])
@@ -421,14 +460,16 @@ def work_all_calender_data():
         holiday_date = str(year) + hol_day_number + final_Number
         lower_day = y[1].strip()
         if lower_day.lower() not in check_days:
-          print(y[1])
-          print(x, y)
           print(
-              "your have written wrong spelling of the day as per given the document in the substitute please check"
+              "\nError in the academic calendar ->  in the holiday date format"
           )
+          print(
+              "\nYour have written wrong spelling of the day as per given the document in the substitute please check ->",
+              i[start] + " " + i[start + 1])
+          print("\nplease correct it\n")
           error_flag = 1
           start += 2
-          continue
+          # continue
           # print(mm[x[1]])
           # print(holiday_date)
         holiday_date = holiday_date
@@ -557,12 +598,13 @@ def read_slotdata_file():
     flag = 0
     for i in slot_reader:
 
-      if i[0] != 'Slot No.' and flag == 0:
-        print("you have not written Slot No. in the row1 column 1")
+      if i[0].strip().lower() != 'slot no.' and flag == 0:
+        print("\nError in the slot Data")
+        print("\nYou have not written slot no. in the row1 column 1\n")
         flag = 1
         read_slot_data_error = 1
         break
-      if i[0] == 'Slot No.':
+      if i[0].strip().lower() == 'slot no.':
         flag = 1
         continue
       if (len(i[0]) == 0):
@@ -571,7 +613,9 @@ def read_slotdata_file():
         temp_list = []  # Create a new list for each row of data
         if (len(i[0]) == 0 or len(i[1]) == 0 or len(i[2]) == 0
             or len(i[3]) == 0):
-          print("empty column in the slot data here is the data ", i)
+          print("\nError in the slot Data")
+          print("\nEmpty column in the slot data here is the data -> ", i)
+          print("\n")
           read_slot_data_error = 1
           continue
         if ":" not in i[1] and "." not in i[1]:
@@ -587,7 +631,11 @@ def read_slotdata_file():
         temp_list.append(i[3].upper())
 
         if i[3].upper() not in capital_days:
-          print("error in the slotdata file here is the error ", i)
+          print("\nError in the slot Data")
+          print(
+              "\nDay spelling error  in the slotdata file here is the error -> ",
+              i)
+          print("\n")
           read_slot_data_error = 1
           continue
 
@@ -596,7 +644,9 @@ def read_slotdata_file():
         temp_list.clear()
 
         if (len(i[4]) == 0 or len(i[5]) == 0 or len(i[6]) == 0):
-          print("empty column in the slot data here is the data ", i)
+          print("\nError in the slot Data")
+          print("\nEmpty column in the slot data here is the data ->", i)
+          print("\n")
           read_slot_data_error = 1
           continue
         if ":" not in i[4] and "." not in i[4]:
@@ -612,7 +662,11 @@ def read_slotdata_file():
         temp_list.append(90)
 
         if i[6].upper() not in capital_days:
-          print("error in the slotdata file here is the error ", i)
+          print("\nError in the slot Data")
+          print(
+              "\nDay spelling error  in the slotdata file here is the error->",
+              i)
+          print("\n")
           read_slot_data_error = 1
           continue
 
@@ -662,10 +716,18 @@ def reading_rest_file(rest_file):
       else:
         b = i[8].strip()
         if (b.lower() == "nil"):
-          if i[13].strip().lower() not in check_days:
+          if (len(i[11]) == 0 or len(i[12]) == 0 or len(i[13]) == 0):
+            print("\nError in the List_of_courses")
             print(
-                "spelling of the day in the slot_file is wrong here is the row where is the error",
+                "\nEmpty column(time/day) in the List_of_courses here is the data ->",
                 i)
+            continue
+          if i[13].strip().lower() not in check_days:
+            print("\nError in the List_of_courses")
+            print(
+                "\nSpelling of the day in the List_of_courses is wrong here is the row where is the error->",
+                i)
+            print("\n")
             rest_file_error = 1
           not_in_slot.append(i)
         elif (len(b) == 0):
@@ -722,6 +784,7 @@ def read_first_year():
             print(
                 "you have written wrong spelling of the day as per given input instruction in the ",
                 i)
+
             read_first_year_error_flag = 1
             continue
 
@@ -827,6 +890,7 @@ def do_mail(s_date, e_date):
   #print("Here-1")
   for allCourses in range(len(slot_data)):  #len(slot_data)
     # allCourses=105
+    print("\n")
     print(allCourses)
     print(slot_data[allCourses])
     course_list = slot_data[
@@ -846,7 +910,7 @@ def do_mail(s_date, e_date):
     slot_d2 = slot_list[1][0]
     # print(slot_d1)
     # print(slot_d2)
-    print(slot_data[allCourses])
+
     if (slot_d1 == slot_d2):
       mail(s_date, e_date, allCourses)
     else:
@@ -854,6 +918,7 @@ def do_mail(s_date, e_date):
   #     #print("Here-1#")c
 
   for allCourses in range(len(not_in_slot)):
+    print("\n")
     print(allCourses)
     print(not_in_slot[allCourses])
     mail_not_in_slot(s_date, e_date, allCourses)
@@ -1952,7 +2017,10 @@ def main():
   error_flag = 0
   if (read_calender_error == 0):
     error_flag = work_all_calender_data()
-
+  # print(sub)
+  # print("\n")
+  # print(hol)
+  # print(read_calender_error, " ",error_flag)
 
   read_slot_data_error = read_slotdata_file()
 
@@ -1978,13 +2046,11 @@ def main():
     # holy_date = input("please provide the semester last mid_sem-holy-date(format dd/mm/yyyy):")
     s_date = takingInput("please provide the semester start date:")
     e_date = takingInput("please provide the semester end date:")
-    mid_date = takingInput(
-        "please provide the starting mid-sem-date :")
-    end_mid_date=takingInput( "please provide the last mid_sem Exam:")
-    holy_start_date=takingInput("please provide the first mid_sem Break Date:")
-    holy_date = takingInput(
-        "please provide the last date of mid_sem break:")
-
+    mid_date = takingInput("please provide the starting mid-sem-date :")
+    end_mid_date = takingInput("please provide the last mid_sem Exam:")
+    holy_start_date = takingInput(
+        "please provide the first mid_sem Break Date:")
+    holy_date = takingInput("please provide the last date of mid_sem break:")
 
     res = correct_order(s_date, e_date, mid_date, holy_date)
 
@@ -2003,21 +2069,22 @@ def main():
     start_date = s_date.split("/")
     end_date = e_date.split("/")
     ms_date = mid_date.split("/")
-    ms_endDate=end_mid_date.split("/")
-    holys_startDate=holy_start_date.split("/")
+    ms_endDate = end_mid_date.split("/")
+    holys_startDate = holy_start_date.split("/")
     holys_date = holy_date.split("/")
 
     s_date = date(int(start_date[2]), int(start_date[1]), int(start_date[0]))
     e_date = date(int(end_date[2]), int(end_date[1]), int(end_date[0]))
     mid_date = date(int(ms_date[2]), int(ms_date[1]), int(ms_date[0]))
-    mid_endDate=date(int(ms_endDate[2]),int(ms_endDate[1]), int(ms_endDate[0]))
-    holy_stDate=date(int(holys_startDate[2]), int(holys_startDate[1]),
-                     int(holys_startDate[0]))
+    mid_endDate = date(int(ms_endDate[2]), int(ms_endDate[1]),
+                       int(ms_endDate[0]))
+    holy_stDate = date(int(holys_startDate[2]), int(holys_startDate[1]),
+                       int(holys_startDate[0]))
     holy_date = date(int(holys_date[2]), int(holys_date[1]),
                      int(holys_date[0]))
 
     holiday_add(ms_date, ms_endDate, mid_date, mid_endDate)
-    holiday_add(holys_startDate,holys_date , holy_stDate, holy_date)
+    holiday_add(holys_startDate, holys_date, holy_stDate, holy_date)
     #print(hol)
     do_mail(s_date, e_date)
 
@@ -2032,6 +2099,5 @@ if __name__ == "__main__":
 
 #{'202307': ' Saturday', '202308': ' Tuesday', '202309': ' Thursday', '20230907': ' Thursday', '20231002': 'Monday', '202310': ' Tuesday', '202311': ' Monday', '202312': ' Monday', '20230922': 'Friday', '2023923': 'Saturday', '2023924': 'Sunday', '2023925': 'Monday', '2023926': 'Tuesday', '2023927': 'Wednesday', '2023928': 'Thursday', '2023929': 'Friday', '2023930': 'Saturday', '20231001': 'Sunday', '20231003': 'Tuesday', '20231004': 'Wednesday', '20231005': 'Thursday', '20231006': 'Friday', '20231007': 'Saturday', '20231008': 'Sunday'}
 #['202309', '20230907', '20231002', '202311', '202312', '2023925', '2023928', '20231005']
-
 
 # done
